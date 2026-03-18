@@ -1,0 +1,90 @@
+/* Сброс */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Шапка */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Навигация */
+nav {
+    background: #34495e;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 10px 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* Контент */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Заголовки */
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 20px 0 10px;
+}
+
+h3 {
+    margin: 15px 0 10px;
+}
+
+/* Списки */
+ul {
+    margin-left: 20px;
+}
+
+/* Картинки */
+img {
+    margin-top: 15px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background: #2c3e50;
+    color: white;
+}
